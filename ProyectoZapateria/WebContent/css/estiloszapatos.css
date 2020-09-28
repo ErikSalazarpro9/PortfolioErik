@@ -1,0 +1,162 @@
+#image-block{
+	position: relative;
+	margin-bottom: 10px;
+}
+#image-block #view_full_size{
+	display: block;
+	cursor: pointer;
+	text-align: center;
+}
+
+#image-block #view_full_size .pan_link{
+	position: absolute;
+	bottom: 10px;
+	display: inline-flex;
+	padding: 4px;
+	text-align: center;
+	line-height: 20px;
+	background: transparent;
+}
+
+/*Estilos generales para los zapatos individualmente*/
+.primary_block{
+	margin-bottom: 40px; 
+}
+
+.pb-left-column{
+
+}
+
+.pb-left-column #image-block{
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.pb-left-column #image-block img{
+	width: 100%;
+}
+
+.pb-left-column .p-label{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+.pb-left-column #image-block #view_full-size
+{
+	display: block;
+	cursor: pointer;
+	text-align: center;
+}
+.pb-left-column #image-block #view_full-size .span_link{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	display: inline-flex;
+	padding: 4px;
+	text-align: center;
+	line-height: 20px;
+	background: transparent;
+
+}
+
+.pb-left-column #views_block{
+	position: relative;
+}
+
+#thumbs_list{
+	overflow: hidden;
+	float: left;
+	max-width: 360px;
+}
+
+#thumbs_list ul#thumbs_list_frame{
+	list-style-type: none;
+	padding-left: 0;
+	overflow: hidden;
+	margin: 0;
+	height: 80px;
+}
+
+#thumbs_list li:first-child{
+	margin: 0 10px 0;
+}
+
+.resetimg{
+	padding: 10px 0 0;
+
+}
+
+.clear{
+	clear: both;
+}
+
+p{
+	margin: 0 0 10px;
+}
+
+.pb-center-column{
+	color: #666;
+}
+
+.pb-center-column h1{
+	padding-bottom: 16px;
+	margin-top: 0;
+	font-size: 30px;
+	text-transform: none;
+	font-weight: 700;
+	color: black;
+}
+
+#product p#loyalty{
+	padding: 17px 0 15px 35px;
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	margin: 10px 0 -5px;
+	position: relative;
+}
+
+b, strong{
+	font-weight: bold;
+}
+
+.content_prices{
+	padding: 15px 0 10px;
+	font-family: "Lora , serif"; 
+}
+
+.pb-center-column #short_description_block{
+	color: #666;
+	margin-top: 30px;
+	padding-bottom: 20px;
+}
+
+#page .rte{
+	background: transparent none repeat scroll 0 0;
+}
+
+#last_quantities{
+	background: #6087d2;
+	padding: 4px 8px 3px;
+	position: relative;
+	top: 1px;
+}
+
+.box-cart-bottom{
+	padding: 25px 0;
+}
+
+.box-cart-bottom .button_add_to_cart{
+	display: inline-block;
+}
+
+.pb-center-column p{
+	margin-bottom: 10px;
+}
+
+.our_price_display{
+	font-size: 16px;
+	font-weight: bold;
+	display: inline-block;
+	color: #6991a6;
+}

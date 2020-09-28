@@ -1,0 +1,193 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+</style> /*Este es el enlace de la fuente Heebo*/
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif; /*Este estilo es de google fonts, del enlace de arriba*/
+}
+:root{
+    --tituloTamaño:25px;
+    --tituloColor:white;
+    --colorfondoTexto: rgb(12, 54, 170);
+}
+
+header{/*Por mientras usamos el header asi*/
+    height: 70px;
+    width: 100%;
+    background-color: rgb(38, 26, 92);
+}
+.main-title{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300; /*Definimos el grosor de las letras, en este caso usamos el valor de google font*/
+}
+
+.titulo{
+    text-align: center;
+    font-size: var(--tituloTamaño);
+    color:var(--tituloColor);
+}
+
+body{
+    background-color: rgb(235, 228, 228);
+}
+.container-all{
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.container-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.box{
+    width: 250px;
+    height: 180px;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.box:hover{
+    transform: translate(5px, -5px);
+    box-shadow: -10px 10px 20px -10px rgba(0, 0, 0, 0.5);
+}
+
+.box .icon,
+.box h4,
+.box p{
+    position: relative;
+    z-index: 1;
+    transition: all 200ms;
+}
+
+.box .icon{
+    font-size: 40px;
+    color: rgb(0, 255, 34);
+    transform: translateY(30px);
+}
+
+.box:hover .icon{
+    color: white;
+    font-size: 30px;
+    transform: translateY(0);
+}
+
+.box:hover h4{
+    transform: translateY(0);
+    color: white;
+}
+
+.box h4,
+.box p{
+    margin-top: 10px;
+}
+
+.box h4{
+    font-size: 30px;
+    transform: translateY(30px);
+}
+
+.box p{
+    font-size: 14px;
+    transform: translateY(100px);
+    opacity: 0;
+}
+
+.box:hover p{
+    transform: translateY(0);
+    opacity: 1;
+    color: white;
+}
+
+
+.box .background-hover{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 250px;
+    left: -170px;
+    border-radius: 100%;
+    transition: 300ms; /*transicion suave*/
+    background: linear-gradient(to bottom, rgb(255, 166, 0),rgb(255, 102, 0));
+}
+
+.box:hover .background-hover{/*posicion del circulo*/
+    width: 400px;
+    height: 400px;
+    top: -170px;
+    left: -70px;
+}
+/*cambiar style a box1*/
+.box1 .icon{
+    color:green
+}
+.box1 .background-hover{
+    background: linear-gradient(to bottom, rgb(0, 255, 242),rgb(255, 0, 234));
+    top: 0px;
+    left: -700px;
+}
+
+/*cambiar style a box2*/
+.box2 .icon{
+    color:rgb(28, 0, 128)
+}
+.box2 .background-hover{
+    background: linear-gradient(to bottom, rgb(68, 83, 83),rgb(126, 226, 80));
+    top: -170px;
+    left: -250px;
+}
+
+/*cambiar style a box3*/
+.box3 .icon{
+    color:green
+}
+.box3 .background-hover{
+    background: linear-gradient(to bottom, rgb(88, 95, 196)),rgb(255, 0, 234));
+    top: 170px;
+    left: 500px;
+}
+/*cambiar style a box4*/
+.box4 .icon{
+    color:rgb(58, 31, 15)
+}
+.box4 .background-hover{
+    background: linear-gradient(to bottom, rgb(200, 255, 0),rgb(177, 158, 175));
+    top: 700px;
+    left: -700px;
+}
+/*cambiar style a box5*/
+.box5 .icon{
+    color:rgb(105, 104, 10)
+}
+.box5 .background-hover{
+    background: linear-gradient(to bottom, rgb(111, 165, 95),rgb(18, 2, 241));
+    top: -190px;
+    left: 100px;
+}
+/*cambiar style a box6*/
+.box6 .icon{
+    color:rgb(121, 13, 209)
+}
+.box6 .background-hover{
+    background: linear-gradient(to bottom, rgb(255, 0, 0),rgb(19, 130, 173));
+}
