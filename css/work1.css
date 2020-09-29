@@ -38,12 +38,15 @@ body{
     max-width: 1000px;
     margin: auto;
     margin-top: 100px;
+    border-radius: 50px;
+    border: 2px solid rgb(23, 5, 126);
 }
 
 .container-box{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
     /* flex-direction: row; */
     /* flex-wrap: wrap; */
 }

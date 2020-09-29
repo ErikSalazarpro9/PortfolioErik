@@ -115,7 +115,7 @@ body{
     
 }
 
-.html5, .css3, .js, .logoBootstrap{
+.html5, .css3, .js, .logoBootstrap, .logoWordpress{
     font-size: 20px;
     width: 10em;
     height: 10em;
@@ -138,8 +138,14 @@ body{
 }
 .logoBootstrap{
     background-image: url("../img/logoBootstrap.png");
+    font-size: 22px;
+    margin-top: 13px;
 }
-/* -------------------------------- */
+
+.logoWordpress{
+    background-image: url("../img/wordpressLogo.png");
+}
+
 .projects{
     background: #f2f2f2;
 }
